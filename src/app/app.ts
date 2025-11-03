@@ -9,4 +9,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('angular-app-1');
+  constructor() {
+    const o = {
+      a: 1
+      b: 2,
+    }
+  }
 }
